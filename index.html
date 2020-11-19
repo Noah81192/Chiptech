@@ -1,471 +1,449 @@
-<!DOCTYPE html>
+<script>
+
+
 <html lang="en">
 
-    <head>
-        <title>Lee County Schools</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="theme-color" content="#ffffff">
-        
-            <link rel="apple-touch-icon" sizes="180x180" href="//cdn.classlink.com/production/launchpad/resources/images/favicon/apple-touch-icon.png">
-            <link rel="icon" type="image/png" href="//cdn.classlink.com/production/launchpad/resources/images/favicon/favicon-32x32.png" sizes="32x32">
-            <link rel="icon" type="image/png" href="//cdn.classlink.com/production/launchpad/resources/images/favicon/favicon-16x16.png" sizes="16x16">
-            <link rel="manifest" href="//cdn.classlink.com/production/launchpad/resources/images/favicon/manifest.json">
-        
-        
-        <link rel="mask-icon" href="//cdn.classlink.com/production/launchpad/resources/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<head>
+<title>Lee County Schools</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#ffffff">
+<link rel="apple-touch-icon" sizes="180x180" href="//cdn.classlink.com/production/launchpad/resources/images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="//cdn.classlink.com/production/launchpad/resources/images/favicon/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="//cdn.classlink.com/production/launchpad/resources/images/favicon/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="//cdn.classlink.com/production/launchpad/resources/images/favicon/manifest.json">
+<link rel="mask-icon" href="//cdn.classlink.com/production/launchpad/resources/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
 
-        <link href="//fonts.googleapis.com/css?family=Roboto:100,300|Open+Sans" rel="stylesheet" type="text/css">
-        <link href='//fonts.googleapis.com/css?family=Open+Sans:500,600,700|Work+Sans:300' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="//cdn.classlink.com/production/launchpad/resources/css/loader.css?t=1605701077331" />
-        <script type="text/javascript">
-            var IdConfig = {
-                guidedtour_onstartup: false,
-                theme: "theme5",
-                optimized: true,
-                resmodified: "1605701077331",
-                prompt_adpassword : "0",
-                hp_trial_passwordreset_flag : "1",
-                local_user_agent : 0,
-                cloudfronturls: {
-                    clouddesktop: "//cdn.classlink.com/production/launchpad",
-                    deskiny: "//dcmtj5kp66sk8.cloudfront.net",
-                    userbucket: "//clouddrivecdn.classlink.com",
-                    appdefaulticon: "//filescdn.classlink.com/resources",
-                    appicon: "//cdn.classlink.com/production/launchpad",
-                    launchpadcdn: "//filescdn.classlink.com"
-                },
-                gwstoken: "e9349e02-faa5-4c1c-a807-567bac0a3b8e",
-                gwstokenMd5: "188961c83a9b68e7e3121b6c9724f0c6",
-                auto_proxy_encryption: false,
-                proxy: {
-                    token: '',
-                    urls: {
-                        classlink: 'https://launchpad.classlink.com/proxies/classlink',
-                        galaxy: 'https://launchpad.classlink.com/proxies/galaxy',
-                        galaxy2: 'https://launchpad.classlink.com/proxies/galaxy2',
-                        api: 'https://launchpad.classlink.com/proxies/api',
-                        external: 'https://launchpad.classlink.com/proxies/external',
-                        api_direct: 'https://nodeapi.classlink.com',
-                        phpapi_direct: 'https://api.classlink.com'
-                    }
-                },
-                apis: {
-                    api: 'https://nodeapi.classlink.com'
-                },
-                urls: {
-                    base: 'https://launchpad.classlink.com',
-                    resources: 'https://launchpad.classlink.com',
-                    launchpad: 'https://legacy.classlink.com',
-                    loginUrl: 'https://launchpad.classlink.com/leeschools',
-                    resourcelib_autocompleteapi: "https://application-autocomplete.classlink.io/autocomplete/v1p0",
-                    adconnectorapi: 'https://tenant-management-service.classlink.io',
-                    analyticslogserver: 'https://analytics-log.classlink.io',
-                    myanalytics: 'https://myanalytics.classlink.com',
-                    feedbackapi: 'https://feedback.classlink.io'
-                },
-                moduleUrls: {
-                    myfiles: 'https://myfiles.classlink.com'
-                },
-                user: {
-                    id: 9416691,
-                    role_level: 4,
-                    is_student: true,
-                    is_teacher: false,
-                    is_admin: false,
-                    is_school: false,
-                    name: "Strunk, Jordan",
-                    email: "JS08497@students.leeschools.net",
-                    tenant_id: 537,
-                    building_id: 888,
-                    profile_id: 2754,
-                    group_id: 107580,
-                    tenant_name:"Lee Schools",
-                    building_name:"Global - Lee Schools",
-                    profile_image: 'clouddrive/2019/09/03/6cbb1c70-ce78-11e9-bb2c-0bf0932b456c/1567535222493-1567535213263-51318d5d889a6f710724712d742b3361.jpg',
-                    is_aduser: '1',
-                    schoolcode: 'leeschools',
-                    expires: '2020-10-20 0:25:47',
-                    default_language:'en',
-                    default_time_format:'0',
-                    ISUNILOGIN : '0',
-                    tenant_expiry_days:'953',
-                    user_profile_count:'1',
-                    saml_loggedin: '1',
-                    saml_sp_code: 'leeschoolsfl',
-                    sessiontimeout: 720,
-                    is_enabled_ssokey: 1,
-                    isParentUser: 0,
-                    icon_style:'square',
-                    customlogo: 'resources/customlinks/24141561a65da1443dbe8aecf16b94bf.png',
-                    customtext: "Lee County Schools",
-                    impersonatedUser: 0,
-                    myclass_enabled: '0',
-                    notes_enabled: '0',
-                    IsEnableAutoLaunch: '1',
-                    AutoLaunchLimit: '5',
-                    use_tms: 1,
-                    teacherImpersonation: 0,
-                    showUserAddedApps: 0,
-                    showPasswordLocker: 0,
-                    "show_passwordrecovery_prompt": 0
-                },
-                modules: {
-                    inbox: {
-                        pagination: {
-                            class_users_select: 20,
-                            inbox_listing: 20,
-                            sent_listing: 20,
-                            deleted_listing: 20
-                        },
-                        is_enabled: 0
-                    },
-                    picker: {
-                        urls: {
-                            css: ["/resources/cfpicker/base/css/base-ui.css", "/lib/cfpicker/css/cloudfilepicker.css", ]
-                        },
-                        config: {
-                            loggingEnabled: false,
-                            proxyUrl: window.location.protocol+"//"+window.location.host+"/proxies/picker",
-                            eoauthUrlBase: window.location.protocol+"//"+window.location.host+"/oauth/picker",
-                            pickerBaseUrl: window.location.protocol+"//"+window.location.host+"/lib/cfpicker",
-                            googleClientId: "780787322912.apps.googleusercontent.com",
-                            skydriveClientId: "54714876-4f42-456e-9f1d-9e9987c177b7",
-                            resourcesUrl: window.location.protocol+"//"+window.location.host+"/resources/cfpicker"
-                        }
-                    },
-                    classapps: {
-                        pagination: {
-                            reslib: 24
-                        }
-                    },
-                    myfiles: {
-                        appid: '22',
-                        s3: {
-                            bucket: 'launchpadclouddrive',
-                            emptydocx: 'https://s3.amazonaws.com/betalaunchpadclouddrive/clouddrivedependency/emptydocument.docx',
-                            emptypptx: 'https://s3.amazonaws.com/betalaunchpadclouddrive/clouddrivedependency/emptypresentation.pptx',
-                            emptyxlsx: 'https://s3.amazonaws.com/betalaunchpadclouddrive/clouddrivedependency/emptyspreadsheet.xlsx'
-                        },
-                        pagination: {
-                            listing: 50,
-                            root_search: 10
-                        },
-                        newOpenLocallyInstalled:0,
-                        browser_caching: 100, // 0 => unlimited, -1 disabled, > 0 => number of recent items to cache
-                        loggingEnabled: false,
-                        proxyUrl: window.location.protocol+"//"+window.location.host+"/proxies/picker",
-                        eoauthUrlBase: window.location.protocol+"//"+window.location.host+"/oauth/picker",
-                        pickerBaseUrl: window.location.protocol+"//"+window.location.host+"/lib/cfpicker",
-                        googleClientId: "780787322912.apps.googleusercontent.com",
-                        skydriveClientId: "54714876-4f42-456e-9f1d-9e9987c177b7",
-                        resourcesUrl: window.location.protocol+"//"+window.location.host+"/resources/cfpicker",
-                        migrate_status: '2',
-                    },
-                    myapps: {
-                        is_resourcelibrary_enabled:'0',
-                        wallpaper_image: '//filescdn.classlink.com/resources/wallpapers/bg.jpg'
-                    },
-                    myclass: {
-                        appid: '733359'
-                    }
-                },
-                resourcelibraryfilteroption: {
-                    is_categories_filterenabled: '0',
-                    is_featured_filterenabled: '0',
-                    is_mostpopular_filterenabled: '0',
-                    is_enterprise_filterenabled: '0',
-                    is_autologin_filterenabled: '0',
-                    is_add_your_own_app_enabled: '0',
-                    is_global_library_enabled: '0'
-                },
-                html5: {
-                    is_html5_enable: '1',
-                    is_html5_ssl_enable: '1',
-                    is_html5_gateway_default: '1'
-                },
-                rdp: {
-                    rdp_flag: 'undefined'
-                },
-                launchpadlocalagent:{
-                    mac:{
-                            download_path:"https://itunes.apple.com/us/app/classlink-agent/id1097738588?mt=12",
-                            da_download_path:"http://files.classlink.com/classlinklocalagent/mac/v6.7/SkoleSkyen.dmg",
-                            latest_version:"7.0",
-                            last_mandatory_version:"6.9"
-                    },
-                    windows:{
-                            download_path:"https://cdn.classlink.com/production/public/agent/windows/v7.1/ClassLinkAgent.msi",
-                            da_download_path:"http://files.classlink.com/classlinklocalagent/windows/v6.7/SkoleSkyenAgent.msi",
-                            latest_version:"7.1",
-                            last_mandatory_version:"7.1"
-                    }
-                },
-                "ssosignouturls": [],
-                "duopushconfig":{
-                    "DuoAdministrationEmail": "",
-                    "DeviceReset":"0"
-                }
-            };
-            function setLaunchCount(appid) {
-                $.pajax({
-                    url: IdConfig.proxy.urls.api + '/applications/'+appid+'/launchcount',
-                    type: 'PUT',
-                    success: function() {
-                        //
-                    }
-                });
-                return true;
-            }
+<link href="//fonts.googleapis.com/css?family=Roboto:100,300|Open+Sans" rel="stylesheet" type="text/css">
+<link href='//fonts.googleapis.com/css?family=Open+Sans:500,600,700|Work+Sans:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="//cdn.classlink.com/production/launchpad/resources/css/loader.css?t=1605614714873" />
+<script type="text/javascript">
+var IdConfig = {
+guidedtour_onstartup: false,
+theme: "theme4",
+optimized: true,
+resmodified: "1605614714873",
+prompt_adpassword : "0",
+hp_trial_passwordreset_flag : "1",
+local_user_agent : 0,
+cloudfronturls: {
+clouddesktop: "//cdn.classlink.com/production/launchpad",
+deskiny: "//dcmtj5kp66sk8.cloudfront.net",
+userbucket: "//clouddrivecdn.classlink.com",
+appdefaulticon: "//filescdn.classlink.com/resources",
+appicon: "//cdn.classlink.com/production/launchpad",
+launchpadcdn: "//filescdn.classlink.com"
+},
+gwstoken: "b3dc8891-d768-4809-8359-4b6d8780f510",
+gwstokenMd5: "76025aa4625a158626ca31babd10f4de",
+auto_proxy_encryption: false,
+proxy: {
+token: '',
+urls: {
+classlink: 'https://launchpad.classlink.com/proxies/classlink',
+galaxy: 'https://launchpad.classlink.com/proxies/galaxy',
+galaxy2: 'https://launchpad.classlink.com/proxies/galaxy2',
+api: 'https://launchpad.classlink.com/proxies/api',
+external: 'https://launchpad.classlink.com/proxies/external',
+api_direct: 'https://nodeapi.classlink.com',
+phpapi_direct: 'https://api.classlink.com'
+}
+},
+apis: {
+api: 'https://nodeapi.classlink.com'
+},
+urls: {
+base: 'https://launchpad.classlink.com',
+resources: 'https://launchpad.classlink.com',
+launchpad: 'https://legacy.classlink.com',
+loginUrl: 'https://launchpad.classlink.com/leeschools',
+resourcelib_autocompleteapi: "https://application-autocomplete.classlink.io/autocomplete/v1p0",
+adconnectorapi: 'https://tenant-management-service.classlink.io',
+analyticslogserver: 'https://analytics-log.classlink.io',
+myanalytics: 'https://myanalytics.classlink.com',
+feedbackapi: 'https://feedback.classlink.io'
+},
+moduleUrls: {
+myfiles: 'https://myfiles.classlink.com'
+},
+user: {
+id: 9416691,
+role_level: 8,
+is_student: false,
+is_teacher: false,
+is_admin: true,
+is_school: false,
+name: "Strunk, Jordan",
+email: "JS08497@students.leeschools.net",
+tenant_id: 537,
+building_id: 888,
+profile_id: 2754,
+group_id: 107580,
+tenant_name:"Lee Schools",
+building_name:"Global - Lee Schools",
+profile_image: 'clouddrive/2019/09/03/6cbb1c70-ce78-11e9-bb2c-0bf0932b456c/1567535222493-1567535213263-51318d5d889a6f710724712d742b3361.jpg',
+is_aduser: '1',
+schoolcode: 'leeschools',
+expires: '2020-10-18 18:9:10',
+default_language:'en',
+default_time_format:'0',
+ISUNILOGIN : '0',
+tenant_expiry_days:'955',
+user_profile_count:'1',
+saml_loggedin: '1',
+saml_sp_code: 'leeschoolsfl',
+sessiontimeout: 720,
+is_enabled_ssokey: 1,
+isParentUser: 0,
+icon_style:'square',
+customlogo: 'resources/customlinks/24141561a65da1443dbe8aecf16b94bf.png',
+customtext: "Lee County Schools",
+impersonatedUser: 0,
+myclass_enabled: '0',
+notes_enabled: '0',
+IsEnableAutoLaunch: '1',
+AutoLaunchLimit: '5',
+use_tms: 1,
+teacherImpersonation: 0,
+showUserAddedApps: 0,
+showPasswordLocker: 0,
+"show_passwordrecovery_prompt": 0
+},
+modules: {
+inbox: {
+pagination: {
+class_users_select: 20,
+inbox_listing: 20,
+sent_listing: 20,
+deleted_listing: 20
+},
+is_enabled: 0
+},
+picker: {
+urls: {
+css: ["/resources/cfpicker/base/css/base-ui.css", "/lib/cfpicker/css/cloudfilepicker.css", ]
+},
+config: {
+loggingEnabled: false,
+proxyUrl: window.location.protocol+"//"+window.location.host+"/proxies/picker",
+eoauthUrlBase: window.location.protocol+"//"+window.location.host+"/oauth/picker",
+pickerBaseUrl: window.location.protocol+"//"+window.location.host+"/lib/cfpicker",
+googleClientId: "780787322912.apps.googleusercontent.com",
+skydriveClientId: "54714876-4f42-456e-9f1d-9e9987c177b7",
+resourcesUrl: window.location.protocol+"//"+window.location.host+"/resources/cfpicker"
+}
+},
+classapps: {
+pagination: {
+reslib: 24
+}
+},
+myfiles: {
+appid: '22',
+s3: {
+bucket: 'launchpadclouddrive',
+emptydocx: 'https://s3.amazonaws.com/betalaunchpadclouddrive/clouddrivedependency/emptydocument.docx',
+emptypptx: 'https://s3.amazonaws.com/betalaunchpadclouddrive/clouddrivedependency/emptypresentation.pptx',
+emptyxlsx: 'https://s3.amazonaws.com/betalaunchpadclouddrive/clouddrivedependency/emptyspreadsheet.xlsx'
+},
+pagination: {
+listing: 50,
+root_search: 10
+},
+newOpenLocallyInstalled:0,
+browser_caching: 100, // 0 => unlimited, -1 disabled, > 0 => number of recent items to cache
+loggingEnabled: false,
+proxyUrl: window.location.protocol+"//"+window.location.host+"/proxies/picker",
+eoauthUrlBase: window.location.protocol+"//"+window.location.host+"/oauth/picker",
+pickerBaseUrl: window.location.protocol+"//"+window.location.host+"/lib/cfpicker",
+googleClientId: "780787322912.apps.googleusercontent.com",
+skydriveClientId: "54714876-4f42-456e-9f1d-9e9987c177b7",
+resourcesUrl: window.location.protocol+"//"+window.location.host+"/resources/cfpicker",
+migrate_status: '2',
+},
+myapps: {
+is_resourcelibrary_enabled:'0',
+wallpaper_image: '//filescdn.classlink.com/resources/wallpapers/bg.jpg'
+},
+myclass: {
+appid: '733359'
+}
+},
+resourcelibraryfilteroption: {
+is_categories_filterenabled: '0',
+is_featured_filterenabled: '0',
+is_mostpopular_filterenabled: '0',
+is_enterprise_filterenabled: '0',
+is_autologin_filterenabled: '0',
+is_add_your_own_app_enabled: '0',
+is_global_library_enabled: '0'
+},
+html5: {
+is_html5_enable: '1',
+is_html5_ssl_enable: '1',
+is_html5_gateway_default: '1'
+},
+rdp: {
+rdp_flag: 'undefined'
+},
+launchpadlocalagent:{
+mac:{
+download_path:"https://itunes.apple.com/us/app/classlink-agent/id1097738588?mt=12",
+da_download_path:"http://files.classlink.com/classlinklocalagent/mac/v6.7/SkoleSkyen.dmg",
+latest_version:"7.0",
+last_mandatory_version:"6.9"
+},
+windows:{
+download_path:"https://cdn.classlink.com/production/public/agent/windows/v7.1/ClassLinkAgent.msi",
+da_download_path:"http://files.classlink.com/classlinklocalagent/windows/v6.7/SkoleSkyenAgent.msi",
+latest_version:"7.1",
+last_mandatory_version:"7.1"
+}
+},
+"ssosignouturls": [],
+"duopushconfig":{
+"DuoAdministrationEmail": "",
+"DeviceReset":"0"
+}
+};
+function setLaunchCount(appid) {
+$.pajax({
+url: IdConfig.proxy.urls.api + '/applications/'+appid+'/launchcount',
+type: 'PUT',
+success: function() {
+//
+}
+});
+return true;
+}
 
-            function idGetCdnUrl(relUrl) {
-                if(relUrl.indexOf('/') !== 0) {
-                    relUrl = '/'+relUrl;
-                }
-                if(relUrl.indexOf('?') > 0) {
-                    relUrl += '&t='+IdConfig.resmodified;
-                }
-                else {
-                    relUrl += '?t='+IdConfig.resmodified;
-                }
-                return IdConfig.cloudfronturls.clouddesktop + relUrl;
+function idGetCdnUrl(relUrl) {
+if(relUrl.indexOf('/') !== 0) {
+relUrl = '/'+relUrl;
+}
+if(relUrl.indexOf('?') > 0) {
+relUrl += '&t='+IdConfig.resmodified;
+}
+else {
+relUrl += '?t='+IdConfig.resmodified;
+}
+return IdConfig.cloudfronturls.clouddesktop + relUrl;
 
-            }
-            if(!IdConfig.optimized) {
-                IdConfig.user.sessiontimeout = 15000;
-            }
-            if(IdConfig.urls.base == 'http://betalaunchpad.classlink.com') {
-                if(window.location.protocol == 'https:') {
-                    IdConfig.urls.base = "https://betalaunchpad.classlink.com";
-                    IdConfig.urls.resources = "https://betalaunchpad.classlink.com";
-                    for(var u in IdConfig.proxy.urls) {
-                        if(IdConfig.proxy.urls.hasOwnProperty(u)) {
-                            IdConfig.proxy.urls[u] = IdConfig.proxy.urls[u].replace("http://betalaunchpad.classlink.com", "https://betalaunchpad.classlink.com");
-                        }
-                    }
-                }
-            }
+}
+if(!IdConfig.optimized) {
+IdConfig.user.sessiontimeout = 15000;
+}
+if(IdConfig.urls.base == 'http://betalaunchpad.classlink.com') {
+if(window.location.protocol == 'https:') {
+IdConfig.urls.base = "https://betalaunchpad.classlink.com";
+IdConfig.urls.resources = "https://betalaunchpad.classlink.com";
+for(var u in IdConfig.proxy.urls) {
+if(IdConfig.proxy.urls.hasOwnProperty(u)) {
+IdConfig.proxy.urls[u] = IdConfig.proxy.urls[u].replace("http://betalaunchpad.classlink.com", "https://betalaunchpad.classlink.com");
+}
+}
+}
+}
 
-            window.ClAppsConfig = IdConfig.modules.picker.config;
-        </script>
+window.ClAppsConfig = IdConfig.modules.picker.config;
+</script>
 
 
-    </head>
-    <body style="overflow:hidden; font-family: 'Open Sans', sans-serif;" class="iconsize1 fontsize2">
-        <span class="loading" id="page-loading"></span>
-        <!-- Start Header Area -->
-        <div class="header">
-            <div class="cl-navbar-top navbar navbar-inverse">
-                <div class="navbar-inner clnav">
-                    <div class="container-fluid">
-                        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-                        <a class="btn btn-navbar btn-navbar-right cl-collapse-show navbar-toggle collapsed">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="sr-only">navbar</span>
-                        </a>
-                        <!-- Be sure to leave the brand out there if you want it shown -->
-                        <div class="brand navbar-brand" tabindex="0"><img class="navimage" src="//filescdn.classlink.com/resources/customlinks/24141561a65da1443dbe8aecf16b94bf.png" alt=""> Lee County Schools</div> 
-                        <img class="profileimage cl-collapse-show profileimageout" src="//clouddrivecdn.classlink.com/clouddrive/2019/09/03/6cbb1c70-ce78-11e9-bb2c-0bf0932b456c/1567535222493-1567535213263-51318d5d889a6f710724712d742b3361.jpg" alt="" />
-                        <!-- Everything you want hidden at 940px or less, place within here -->
-                        <div class="cl-collapse-right">
-                            <!-- .nav, .navbar-search, .navbar-form, etc -->
-                            <ul class="nav navbar-nav pull-left">
-                                <li class="divider-vertical" style="height: -webkit-fill-available"></li>
-                                <li class="rmenu-search cl-collapse-show" data-toggle="tooltip" data-original-title="Search" data-placement="bottom">
-                                    <div class="nav-custom-body">
-                                        <div class="input-append">
-                                                <input class="span2" name="search_txt" placeholder="Search" type="text" aria-label="Search" tabindex="0" />
-                                                <button class="btn" type="button" tabindex="0">
-                                                    <i class="fa fa-remove"></i><span class="sr-only">remove</span>
-                                                </button>
-                                        </div>
-                                    </div>
-                                </li>
-                                
-                                <li class="rmenu-new-folder cl-collapse-show" data-toggle="tooltip" data-original-title="New Folder" data-placement="bottom" tabindex="0"><a><i class="fa fa-folder-open fa-fixed-width"></i> <span>New Folder</span></a></li>
-                                
-                                
-                                
-                                <li class="rmenu-my-profile cl-collapse-show" tabindex="0">
-                                    <a class="setting-button">
-                                        <i class="fa fa-user fa-fixed-width"></i>
-                                        <span>My Profile</span>
-                                    </a>
-                                </li>
-                            </ul>
-                            <ul class="nav navbar-nav pull-right">
-                                <li class="rmenu-search cl-collapse-hide" data-toggle="tooltip-remove" data-original-title="Search" data-placement="bottom">
-                                    <!--a href="javascript:void(0);" class="outsideclickhide-source"><i class="fa fa-search fa-fixed-width"></i><small class="search-indicator"><i class="fa fa-filter icon-white"></i></small> <span>Search</span></a>
-                                    <div class="search_popup outsideclickhide" id="lp_search" style="display:none;">
-                                        <div class="search_arrow"></div-->
-                                        <!--div class="nav-custom-header">
-                                            <span class="nav-custom-header-text">
-                                                Search
-                                            </span>
-                                        </div-->
-                                        <!--div class="nav-custom-body">
-                                            <div class="input-append">
-                                                <input class="span2" name="search_txt" placeholder="Search" type="text">
-                                                <button class="btn" type="button"><i class="fa fa-remove"></i></button>
-                                           </div>
-                                        </div>
-                                    </div-->
-									<div class="lp-search">
-                                        <input type="search" name="search_txt" class="search_txt" placeholder="Search" aria-label="Search"><span class="myapp-search-box-clear"><i class="fa fa-times"></i></span>
-                                    </div>
-                                </li>
-                                <li class="rmenu-edit-mode cl-collapse-hide" data-toggle="tooltip" data-original-title="Edit Mode" data-placement="bottom" tabindex="0"><a><i class="fa fa-edit icon-fixed-width"></i> <span>Edit Mode</span></a></li>
-                                <li class="rmenu-notifications cl-collapse-hide" tabindex="0"><a class="outsideclickhide-source" id="outsideclickhide-source-notifications" data-element="lp_notifications" data-toggle="tooltip" data-original-title="Notifications" data-placement="bottom"><i class="fa fa-bell icon-fixed-width"></i><div class="badge badge-important"></div> <span>Notifications</span></a></li>
-                                <li class="rmenu-help cl-collapse-hide" data-toggle="tooltip" data-original-title="Help" data-placement="bottom" tabindex="0">
-                                    <a class="outsideclickhide-source" id="outsideclickhide-source-help" data-element="lp_help">
-                                        <i class="fa fa-question fa-fixed-width"></i><span>Help</span>
-                                    </a> <!--start help content-->
-                                    <div class="help_popup outsideclickhide"  id="lp_help" style="display:none;">
-                                        <div class="help_arrow"></div>
-                                        <div class="nav-custom-header">
-                                            <span class="nav-custom-header-text">
-                                                Help
-                                            </span>
-                                        </div>
-                                        <div class="nav-custom-body"></div>
-                                        <div style="border-radius: 0;" class="modal-footer-help">
-                                            
-                                            <a name="onlinehelp" class="btn btn-block btn-success onlinehelp" data-dismiss="modal" tabindex="0" aria-hidden="true">Online Help</a>
-                                            
-                                            <button name="contactsupporthelp" class="btn btn-block btn-danger contactsupporthelp" tabindex="0" data-dismiss="modal" aria-hidden="true">Contact Support</button>
-                                            <!--button name="browsecheckhelp" class="btn btn-block btn-warning" data-dismiss="modal" aria-hidden="true">Browser Check</button-->
-                                            <!-- <button name="guidedtourhelp" class="btn btn-block btn-primary guidedtourhelp" tabindex="0">Show Guided Tour</button> -->
-                                            <button name="cancelhelp" class="btn btn-block cancelhelp" data-dismiss="modal" tabindex="0" aria-hidden="true">Cancel</button>
-                                        </div>
-                                    </div><!--end help content--></li>
-                                
-                                <li class="rmenu-user  cl-collapse-hide" tabindex="0">
-                                    <a class="outsideclickhide-source" id="outsideclickhide-source-user" data-notloaded="1"  data-element="user_popupid" title=""><img class="profileimage" src="//clouddrivecdn.classlink.com/clouddrive/2019/09/03/6cbb1c70-ce78-11e9-bb2c-0bf0932b456c/1567535222493-1567535213263-51318d5d889a6f710724712d742b3361.jpg" alt="avatar"> <i style="padding-left:60px" class="fa fa-chevron-down"></i></a>
-                                    <div class="user_popup outsideclickhide"  id="user_popupid">
-                                        <div style="padding: 20px 0 0 20px;">
-                                            <img class="roundprofile roundprofile-large" src="//clouddrivecdn.classlink.com/avatar.jpg" alt="" />
-                                            <h2 class="displayname">
-                                                <span class="sr-only">displayname</span>
-                                            </h2>
-                                            <a class="email">
-                                                <span class="sr-only">email</span>
-                                            </a><br>
-                                            <span class="schoolname"></span>
-                                            
-                                        </div>
-                                        <div class="clear"></div>
-                                        <div class="user_arrow"></div>
-                                        <div class="modal-footer" style="border-radius: 0;">
-                                            
-                                            <a class="btn setting-button" tabindex="0">My Profile</a>
-                                            <a class="btn btn-danger logout-button" tabindex="0">Sign Out</a>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="cl-collapse-show"><a class="logout-button" tabindex="0"><i class="fa fa-fixed-width fa-off"></i> <span>Logout</span></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Header Area -->
+</head>
+<body style="overflow:hidden; font-family: 'Open Sans', sans-serif;" class="iconsize1 fontsize1">
+<span class="loading" id="page-loading"></span>
+<!-- Start Header Area -->
+<div class="header">
+<div class="cl-navbar-top navbar navbar-inverse">
+<div class="navbar-inner clnav">
+<div class="container-fluid">
+<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+<a class="btn btn-navbar btn-navbar-right cl-collapse-show navbar-toggle collapsed">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="sr-only">navbar</span>
+</a>
+<!-- Be sure to leave the brand out there if you want it shown -->
+<div class="brand navbar-brand" tabindex="0"><img class="navimage" src="//filescdn.classlink.com/resources/customlinks/24141561a65da1443dbe8aecf16b94bf.png" alt=""> Lee County Schools</div>
+<img class="profileimage cl-collapse-show profileimageout" src="//clouddrivecdn.classlink.com/clouddrive/2019/09/03/6cbb1c70-ce78-11e9-bb2c-0bf0932b456c/1567535222493-1567535213263-51318d5d889a6f710724712d742b3361.jpg" alt="" />
+<!-- Everything you want hidden at 940px or less, place within here -->
+<div class="cl-collapse-right">
+<!-- .nav, .navbar-search, .navbar-form, etc -->
+<ul class="nav navbar-nav pull-left">
+<li class="divider-vertical" style="height: -webkit-fill-available"></li>
+<li class="rmenu-search cl-collapse-show" data-toggle="tooltip" data-original-title="Search" data-placement="bottom">
+<div class="nav-custom-body">
+<div class="input-append">
+<input class="span2" name="search_txt" placeholder="Search" type="text" aria-label="Search" tabindex="0" />
+<button class="btn" type="button" tabindex="0">
+<i class="fa fa-remove"></i><span class="sr-only">remove</span>
+</button>
+</div>
+</div>
+</li>
+<li class="rmenu-new-folder cl-collapse-show" data-toggle="tooltip" data-original-title="New Folder" data-placement="bottom" tabindex="0"><a><i class="fa fa-folder-open fa-fixed-width"></i> <span>New Folder</span></a></li>
+<li class="rmenu-my-profile cl-collapse-show" tabindex="0">
+<a class="setting-button">
+<i class="fa fa-user fa-fixed-width"></i>
+<span>My Profile</span>
+</a>
+</li>
+</ul>
+<ul class="nav navbar-nav pull-right">
+<li class="rmenu-search cl-collapse-hide" data-toggle="tooltip-remove" data-original-title="Search" data-placement="bottom">
+<!--a href="javascript:void(0);" class="outsideclickhide-source"><i class="fa fa-search fa-fixed-width"></i><small class="search-indicator"><i class="fa fa-filter icon-white"></i></small> <span>Search</span></a>
+<div class="search_popup outsideclickhide" id="lp_search" style="display:none;">
+<div class="search_arrow"></div-->
+<!--div class="nav-custom-header">
+<span class="nav-custom-header-text">
+Search
+</span>
+</div-->
+<!--div class="nav-custom-body">
+<div class="input-append">
+<input class="span2" name="search_txt" placeholder="Search" type="text">
+<button class="btn" type="button"><i class="fa fa-remove"></i></button>
+</div>
+</div>
+</div-->
+<div class="lp-search">
+<input type="search" name="search_txt" class="search_txt" placeholder="Search" aria-label="Search"><span class="myapp-search-box-clear"><i class="fa fa-times"></i></span>
+</div>
+</li>
+<li class="rmenu-edit-mode cl-collapse-hide" data-toggle="tooltip" data-original-title="Edit Mode" data-placement="bottom" tabindex="0"><a><i class="fa fa-edit icon-fixed-width"></i> <span>Edit Mode</span></a></li>
+<li class="rmenu-notifications cl-collapse-hide" tabindex="0"><a class="outsideclickhide-source" id="outsideclickhide-source-notifications" data-element="lp_notifications" data-toggle="tooltip" data-original-title="Notifications" data-placement="bottom"><i class="fa fa-bell icon-fixed-width"></i><div class="badge badge-important"></div> <span>Notifications</span></a></li>
+<li class="rmenu-help cl-collapse-hide" data-toggle="tooltip" data-original-title="Help" data-placement="bottom" tabindex="0">
+<a class="outsideclickhide-source" id="outsideclickhide-source-help" data-element="lp_help">
+<i class="fa fa-question fa-fixed-width"></i><span>Help</span>
+</a> <!--start help content-->
+<div class="help_popup outsideclickhide" id="lp_help" style="display:none;">
+<div class="help_arrow"></div>
+<div class="nav-custom-header">
+<span class="nav-custom-header-text">
+Help
+</span>
+</div>
+<div class="nav-custom-body"></div>
+<div style="border-radius: 0;" class="modal-footer-help">
+<a name="onlinehelp" class="btn btn-block btn-success onlinehelp" data-dismiss="modal" tabindex="0" aria-hidden="true">Online Help</a>
+<button name="contactsupporthelp" class="btn btn-block btn-danger contactsupporthelp" tabindex="0" data-dismiss="modal" aria-hidden="true">Contact Support</button>
+<!--button name="browsecheckhelp" class="btn btn-block btn-warning" data-dismiss="modal" aria-hidden="true">Browser Check</button-->
+<!-- <button name="guidedtourhelp" class="btn btn-block btn-primary guidedtourhelp" tabindex="0">Show Guided Tour</button> -->
+<button name="cancelhelp" class="btn btn-block cancelhelp" data-dismiss="modal" tabindex="0" aria-hidden="true">Cancel</button>
+</div>
+</div><!--end help content--></li>
+<li class="rmenu-user cl-collapse-hide" tabindex="0">
+<a class="outsideclickhide-source" id="outsideclickhide-source-user" data-notloaded="1" data-element="user_popupid" title=""><img class="profileimage" src="//clouddrivecdn.classlink.com/clouddrive/2019/09/03/6cbb1c70-ce78-11e9-bb2c-0bf0932b456c/1567535222493-1567535213263-51318d5d889a6f710724712d742b3361.jpg" alt="avatar"> <i style="padding-left:60px" class="fa fa-chevron-down"></i></a>
+<div class="user_popup outsideclickhide" id="user_popupid">
+<div style="padding: 20px 0 0 20px;">
+<img class="roundprofile roundprofile-large" src="//clouddrivecdn.classlink.com/avatar.jpg" alt="" />
+<h2 class="displayname">
+<span class="sr-only">displayname</span>
+</h2>
+<a class="email">
+<span class="sr-only">email</span>
+</a><br>
+<span class="schoolname"></span>
+</div>
+<div class="clear"></div>
+<div class="user_arrow"></div>
+<div class="modal-footer" style="border-radius: 0;">
+<a class="btn setting-button" tabindex="0">My Profile</a>
+<a class="btn btn-danger logout-button" tabindex="0">Sign Out</a>
+</div>
+</div>
+</li>
+<li class="cl-collapse-show"><a class="logout-button" tabindex="0"><i class="fa fa-fixed-width fa-off"></i> <span>Logout</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- End Header Area -->
 
-        <!-- Start Main Content Area -->
-        <div class="container-fluid result-container no-selection"></div>
-        <!-- End Main Content Area -->
+<!-- Start Main Content Area -->
+<div class="container-fluid result-container no-selection"></div>
+<!-- End Main Content Area -->
 
-        <!-- Start Footer Area -->
-        <div id="buttons-at-bottom" class="footer">
-            <ul>
-                <li>
-                    <a data-moduleroutebase="myapps" href="#myapps" class="b-apps moduleroutelink" tabindex="0"><span></span><b>My Apps</b></a>
-                </li>
-                
-                <li>
-                    
-                    <a data-moduleroutebase="newmyfiles" href="https://myfiles.classlink.com/?setLng=en" onclick="return setLaunchCount(IdConfig.modules.myfiles.appid)" class="b-cloud moduleroutelink" tabindex="0" target="_blank" ><span></span><b>My Files</b></a>
-                    
-                </li>
-                
-            </ul>
-        </div>
-        <!-- End Footer Area -->
-        <div class="container-fluid myfiles-result-container"></div>
-        <div id="ubermodal-resourcelibrary" class="ubermodal uberhidden" style="z-index:1490;display:none;">
-            <header>
-                <h2>
-                    <i class="fa fa-user fa-border pull-left "></i> App Library
-                    <a data-action="close" class="close" title="Close Window">×</a>
-                </h2>
-            </header>
-            <div class="ubercontent resourcelibrary-result-container" id="resourcelibrary-result-container" style="padding:0px; height:88%; overflow:auto"></div>
-        </div>
-        <div class='notifications center'></div>
-        <div id="welcome_ploadingpanel" style="display: block;">
-            
-                <div class="watermark"><img src="//cdn.classlink.com/production/launchpad/img/login/logo-lp-new.png" alt="" /></div>
-            
-            <div class="dcenter">
-                <div class="splash-message">
-                    
-                        <h1>Welcome to Lee County Schools</h1>
-                    
-                </div>
-                <div class="logo">
-                    <img src="//filescdn.classlink.com/resources/customlinks/24141561a65da1443dbe8aecf16b94bf.png" alt="" />
-                </div>
-                <div class="spinner-wrapper">
-                    <div class="outer-spinner">
-                        <div class="spinner">
-                            <div class="left">
-                                <div class="circle"></div>
-                            </div>
-                            <div class="right">
-                                <div class="circle"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="ploadingpanel" style="display: none;">
-            <div class="watermark"><img src="//cdn.classlink.com/production/launchpad/img/login/logo-lp-new.png" alt="" /></div>
-            <div class="dcenter">
-                <div class="splash-message">
-                    <h1>Logging Out</h1>
-                </div>
-                <div class="logo animated hinge">
-                    <img src="//filescdn.classlink.com/resources/customlinks/24141561a65da1443dbe8aecf16b94bf.png" alt="" />
-                </div>
-                <div class="spinner-wrapper">
-                    <div class="outer-spinner">
-                        <div class="spinner">
-                            <div class="left">
-                                <div class="circle"></div>
-                            </div>
-                            <div class="right">
-                                <div class="circle"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="bar_container" style="display:none;"></div>
+<!-- Start Footer Area -->
+<div id="buttons-at-bottom" class="footer">
+<ul>
+<li>
+<a data-moduleroutebase="myapps" href="#myapps" class="b-apps moduleroutelink" tabindex="0"><span></span><b>My Apps</b></a>
+</li>
+<li>
+<a data-moduleroutebase="newmyfiles" href="https://myfiles.classlink.com/?setLng=en" onclick="return setLaunchCount(IdConfig.modules.myfiles.appid)" class="b-cloud moduleroutelink" tabindex="0" target="_blank" ><span></span><b>My Files</b></a>
+</li>
+</ul>
+</div>
+<!-- End Footer Area -->
+<div class="container-fluid myfiles-result-container"></div>
+<div id="ubermodal-resourcelibrary" class="ubermodal uberhidden" style="z-index:1490;display:none;">
+<header>
+<h2>
+<i class="fa fa-user fa-border pull-left "></i> App Library
+<a data-action="close" class="close" title="Close Window">×</a>
+</h2>
+</header>
+<div class="ubercontent resourcelibrary-result-container" id="resourcelibrary-result-container" style="padding:0px; height:88%; overflow:auto"></div>
+</div>
+<div class='notifications center'></div>
+<div id="welcome_ploadingpanel" style="display: block;">
+<div class="watermark"><img src="//cdn.classlink.com/production/launchpad/img/login/logo-lp-new.png" alt="" /></div>
+<div class="dcenter">
+<div class="splash-message">
+<h1>Welcome to Lee County Schools</h1>
+</div>
+<div class="logo">
+<img src="//filescdn.classlink.com/resources/customlinks/24141561a65da1443dbe8aecf16b94bf.png" alt="" />
+</div>
+<div class="spinner-wrapper">
+<div class="outer-spinner">
+<div class="spinner">
+<div class="left">
+<div class="circle"></div>
+</div>
+<div class="right">
+<div class="circle"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="ploadingpanel" style="display: none;">
+<div class="watermark"><img src="//cdn.classlink.com/production/launchpad/img/login/logo-lp-new.png" alt="" /></div>
+<div class="dcenter">
+<div class="splash-message">
+<h1>Logging Out</h1>
+</div>
+<div class="logo animated hinge">
+<img src="//filescdn.classlink.com/resources/customlinks/24141561a65da1443dbe8aecf16b94bf.png" alt="" />
+</div>
+<div class="spinner-wrapper">
+<div class="outer-spinner">
+<div class="spinner">
+<div class="left">
+<div class="circle"></div>
+</div>
+<div class="right">
+<div class="circle"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="bar_container" style="display:none;"></div>
 
-        <div class="achievement-container"></div>
-        <script type="text/javascript" src="//cdn.classlink.com/production/launchpad/resources/modernizr/modernizr.min.js?t=1605701077331"></script>
+<div class="achievement-container"></div>
+<script type="text/javascript" src="//cdn.classlink.com/production/launchpad/resources/modernizr/modernizr.min.js?t=1605614714873"></script>
 
-        <script type="text/javascript" src="//cdn.classlink.com/production/launchpad/resources/require/require.js?t=1605701077331"></script>
-        
-        <script type="text/javascript" src="//cdn.classlink.com/production/launchpad/optimize/main.js?t=1605701077331"></script>
-        
-        <script type="text/javascript" src="//cdn.classlink.com/production/launchpad/js/main.js?t=1605701077331"></script>
-        
-        <script async src="https://cdn.classlink.com/production/framework/scripts/seasonal-themes-min.js"></script>
-        
-    </body>
+<script type="text/javascript" src="//cdn.classlink.com/production/launchpad/resources/require/require.js?t=1605614714873"></script>
+<script type="text/javascript" src="//cdn.classlink.com/production/launchpad/optimize/main.js?t=1605614714873"></script>
+<script type="text/javascript" src="//cdn.classlink.com/production/launchpad/js/main.js?t=1605614714873"></script>
+<script async src="https://cdn.classlink.com/production/framework/scripts/seasonal-themes-min.js"></script>
+</body>
 </html>
